@@ -1,0 +1,86 @@
+html {
+    font-family: 'Kiona', sans-serif;
+    font-size: 36px;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(14, 40, 179, 1) 0%, rgba(145, 29, 253, 1) 50%, rgba(84, 69, 252, 1) 100%);
+    color: whitesmoke;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.button {
+    background-color: #3d79e9;
+    /* Blue */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    margin: 1% auto;
+}
+
+.button {
+    border-radius: 8px;
+}
+
+.ticTacToe {
+    background-color: transparent;
+    width: 35vw;
+    height: 35vw;
+    margin: 2% auto;
+    /* center */
+    outline: solid transparent;
+}
+
+.box {
+    background: #ffffff5e;
+    text-align: center;
+    width: 33%;
+    height: 33%;
+    vertical-align: center;
+    font-size: 7vw;
+    margin: 0;
+    user-select: none;
+}
+
+.win {
+    color: #ffffff;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text {
+    font-family: 'Kiona', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

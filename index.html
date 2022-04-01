@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Michał Borowy">
+    <meta name="description" content="This is my first attempt to code Tic Tac Toe">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="http://fonts.cdnfonts.com/css/kiona-2" rel="stylesheet">
+    <link rel="icon" href="Tic tac toe icon.png" type="image/x-icon">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="overlay" onclick="overlayOff()">
+        <div id="text"></div>
+
+    </div>
+    <h1 style="text-align: center;"> Let's play TIC TAC TOE</h1>
+    <button class="button playbtn">PLAY</button>
+    <table class="ticTacToe">
+        <tr>
+            <td class="box" id="0"></td>
+            <td class="box" id="1"></td>
+            <td class="box" id="2"></td>
+        </tr>
+        <tr>
+            <td class="box" id="3"> </td>
+            <td class="box" id="4"></td>
+            <td class="box" id="5"> </td>
+        </tr>
+        <tr>
+            <td class="box" id="6"> </td>
+            <td class="box" id="7"> </td>
+            <td class="box" id="8"> </td>
+        </tr>
+    </table>
+
+
+    <button class="button resetbtn">RESET</button>
+    <script src="game.js"></script>
+</body>
+
+</html>
